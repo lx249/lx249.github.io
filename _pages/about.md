@@ -9,6 +9,7 @@ profile:
   image: prof_pic.jpeg
   image_circular: true # crops the image to make it circular
   address: >
+    <p>lx249 [a] cam.ac.uk</p>
     <p>Alan Reece Building</p>
     <p>17 Charles Babbage Rd</p>
     <p>Cambridge CB3 0FS, UK</p>
