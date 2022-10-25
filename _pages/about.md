@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research Associate at the University of Cambridge
+subtitle: <strong>Research Associate</strong> at the University of Cambridge
 
 profile:
   align: right
@@ -18,7 +18,7 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-I am currently a Research Associate at the [Supply Chain AI Lab](https://www.ifm.eng.cam.ac.uk/research/supply-chain-ai-lab/) (or SCAIL, previously known as the Manufacturing Analytics Group (MAG) within the Distributed Information and Automation Laboratory (DIAL)), Institute for Manufacturing (IfM), Department of Engineering, University of Cambridge. 
+I am currently a Research Associate at the [Supply Chain AI Lab](https://www.ifm.eng.cam.ac.uk/research/supply-chain-ai-lab/) (or SCAIL, previously known as the Manufacturing Analytics Group (MAG) within the [Distributed Information and Automation Laboratory](https://www.ifm.eng.cam.ac.uk/research/dial/) (DIAL)), [Institute for Manufacturing](https://www.ifm.eng.cam.ac.uk/) (IfM), Department of Engineering, University of Cambridge, United Kingdom.
 
 Currently he works with Dr Alexandra Brintrup in the Pitch-in project of demonstrating the feasibility of autonomous supply chain with IoT. This project aims to develop an integrated platform for showcasing how the multi-agent technologies and internet of things (IoT) can be combined together to achieve supply chain automation, with emphases on designing suitable agent architecture and improving the Technology Readiness Levels (TRL). 
 

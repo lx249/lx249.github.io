@@ -79,7 +79,7 @@ quora_username: # your Quora username
 publons_id: # your ID on Publons
 research_gate_profile: https://www.researchgate.net/profile/Liming-Xu-4
 blogger_url: # your blogger URL
-work_url: https://www.ifm.eng.cam.ac.uk/people/lx249/
+work_url: # your work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
@@ -94,7 +94,7 @@ facebook_id: # your facebook id
 discord_id: # your discord id (18-digit unique numerical identifier)
 
 contact_note: >
-  The best way to reach me is via E-mail.
+  The best way to reach out to me is via E-mail.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification

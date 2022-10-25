@@ -1,6 +1,11 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"IJPE":
+  url: https://www.sciencedirect.com/journal/international-journal-of-production-economics
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"IJPR":
+  url: https://www.tandfonline.com/journals/tprs20
+  color: "#00369f"
+
+"JSS":
+  url: https://www.sciencedirect.com/journal/journal-of-systems-and-software
+  color: "#00369f"
