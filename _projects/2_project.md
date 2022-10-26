@@ -1,7 +1,7 @@
 ---
 layout: page
 title: project 2
-description: a project with a background image
+description: Demonstrating Feasibility of Autonomous Supply Chains with IoT
 img: assets/img/3.jpg
 importance: 2
 category: work

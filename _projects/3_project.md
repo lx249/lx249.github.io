@@ -1,7 +1,7 @@
 ---
 layout: page
 title: project 3
-description: a project that redirects to another website
+description: "AgentChat: Feasibility of Large-scale Multi-agent Coordination for Freight Co-loading"
 img: assets/img/7.jpg
 redirect: https://unsplash.com
 importance: 3
