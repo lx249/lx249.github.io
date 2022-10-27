@@ -14,10 +14,14 @@
   - firstname: ["Dave"]
     url: https://scholar.google.com/citations?hl=en&user=vYqZHLsAAAAJ
 
+"Brintrup":
+  - firstname: ["Alexandra", "Alexandra M.", "Alexandra M", "Alexandra Melike"]
+  - url: https://www.ifm.eng.cam.ac.uk/people/ab702/
+
 "Zhou":
   - firstname: ["Zhi Quan", "Z. Q."]
     url: https://scholar.google.com/citations?hl=en&user=UHimbpIAAAAJ
 
-"Brintrup":
-  - firstname: ["Alexandra", "Alexandra M.", "Alexandra M", "Alexandra Melike"]
-  - url: https://www.ifm.eng.cam.ac.uk/people/ab702/
+"Pearce":
+  - firstname: ["Tim"]
+  - url: https://teapearce.github.io/
