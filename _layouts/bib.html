@@ -109,12 +109,18 @@
           {% assign proceedings = "inproceedings, incollection" | split: ','%}
           {% if entry.type == "article" -%}
             {%- capture entrytype -%}<em>{{entry.journal}}{{ ", " }}</em>{%- endcapture -%}
+          <!-- PhD thesis -->
           {%- elsif entry.type == "phdthesis" -%}
             {%- capture entrytype -%}<em>{{ "PhD Thesis, "}}</em>{{entry.school}}{{ ", " }}{%- endcapture -%}
+          <!-- Master thesis -->
           {%- elsif entry.type == "mastersthesis" -%}
             {%- capture entrytype -%}<em>{{ "Master Thesis, "}}</em>{{entry.school}}{{ ", " }}{%- endcapture -%}
+          <!-- CN patent -->
           {%- elsif entry.type == "misc" and entry.abbr contains "Patent" -%}
             {%- capture entrytype -%}<em>{{ "CN Patent "}}{{entry.note}}{{ ", " }}</em>{%- endcapture -%}
+          <!-- Unpublished -->
+          {%- elsif entry.type == "misc" and entry.abbr == "Unpublished" -%}
+            {%- capture entrytype -%}<em>{{entry.note}}</em>{{ ", " }}{%- endcapture -%}
           {%- elsif proceedings contains entry.type -%}
             {%- capture entrytype -%}<em>In {{entry.booktitle}}{{ ", " }}</em> {%- endcapture -%}
           <!-- type -->
