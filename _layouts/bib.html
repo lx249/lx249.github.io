@@ -119,8 +119,9 @@
           {%- elsif entry.type == "misc" and entry.abbr contains "Patent" -%}
             {%- capture entrytype -%}<em>{{ "CN Patent "}}{{entry.note}}{{ ", " }}</em>{%- endcapture -%}
           <!-- Unpublished -->
-          {%- elsif entry.type == "misc" and entry.abbr == "Unpublished" -%}
+          {%- elsif entry.type == "unpublished" -%}
             {%- capture entrytype -%}<em>{{entry.note}}</em>{{ ", " }}{%- endcapture -%}
+          <!-- inproceedings, incollection -->
           {%- elsif proceedings contains entry.type -%}
             {%- capture entrytype -%}<em>In {{entry.booktitle}}{{ ", " }}</em> {%- endcapture -%}
           <!-- type -->
@@ -139,8 +140,14 @@
           {%- else -%}
             {%- capture entryyear -%}{{ "" }}{%- endcapture -%}
           {%- endif -%}
+          <!-- Award -->
+          {%- if entry.note contains "Award" -%}
+            {%- capture entrynote -%}<p class="text-success my-0"><i class="fas fa-award"></i> {{ entry.note }}</p>{%- endcapture -%}
+          {%- else -%}
+            {%- capture entrynote -%}{{ "" }}{%- endcapture -%}
+          {%- endif -%}
           <!-- periodical -->
-          {%- capture periodical -%}{{ entrytype }}{{ entrymonth }}{{ entryyear }}{%- endcapture -%}
+          {%- capture periodical -%}{{ entrytype }}{{ entrymonth }}{{ entryyear }} {{ entrynote }} {%- endcapture -%}
           <div class="periodical">
             {{ periodical | strip }}
           </div>
