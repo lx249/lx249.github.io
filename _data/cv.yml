@@ -1,97 +1,183 @@
-- title: General Information
+## Personal information
+- title: Personal Information
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Liming Xu
+    - name: Pronouns
+      value: He/Him/His
+    - name: Contact
+      value: lx249 [at] cam.ac.uk
     - name: Languages
-      value: English, German
+      value: Mandarin Chinese (native), English (fluent)
 
+## Academic interests
+- title: Research Areas
+  type: nested_list
+  contents:
+    - title: Current Interests
+      items:
+        - Autonomous Supply Chains (ASC)
+        - Multi-Agent Systems (MAS)
+        - Agentic AI
+    - title: Past Interests
+      items: 
+        - Artcode Detection
+        - Augmented Reality (AR)
+        - Computer Vision (CV)
+        - Metamorphic Testing (MT)
+        - Human-Computer Interaction (HCI)
+
+## Education
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD, Computer Vision and Human-Computer Interaction
+      institution: University of Nottingham, Nottingham, United Kingdom
+      year: 10/2013 - 03/2019
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - <u>Thesis:</u> Artcode Detection in Images
+        - <u>Supervisors:</u> Prof <a href="https://research.nottingham.edu.cn/en/persons/dave-towey">Dave Towey</a>, 
+          Prof <a href="https://www.nottingham.ac.uk/biosciences/people/andrew.p.french">Andrew P. French</a>, and 
+          Prof <a href="https://www.nottingham.ac.uk/computerscience/people/steve.benford">Steve Benford</a>
+        - <u>Examiners:</u> Prof <a href="https://www.nottingham.ac.uk/computerscience/people/tony.pridmore">Tony Pridmore</a> (Internal) 
+          and <a href="https://uclic.ucl.ac.uk/people/enrico-costanza">Prof Enrico Costanza</a> (External)
 
-- title: Experience
+    - title: MRes, Computer Science (Database)
+      institution: Hohai University, Nanjing, China
+      year: 09/2009 - 06/2012
+      description:
+        - <u>Thesis:</u> Node Depth-based Methods for XML Indexing and Searching
+        - <u>Supervisor:</u> Supervised by <a href="https://jszy.hhu.edu.cn/fj12/">Prof Jun Feng</a>
+       
+    - title: Bachelor, Computer Science
+      institution: Jinling Institute of Technology, Nanjing, China
+      year: 09/2005 - 06/2009
+
+
+## Academic experience
+- title: Academic Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Senior Research Associate
+      institution: Supply Chain AI Lab, Department of Engineering, University of Cambridge, Cambridge, UK
+      year: 12/2024 - present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - <u>Research topics:</u> Autonomous Supply Chains, Agentic AI, Knowledge Graph, and Agentic System Evaluation
+        - <u>PI:</u> Prof Alexandra Brintrup
+
+    - title: Research Associate
+      institution: Supply Chain AI Lab, Department of Engineering, University of Cambridge, Cambridge, UK
+      year: 04/2019 - present
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - <u>Research topics:</u> Autonomous Supply Chains, Collaborative Logistics, Multi-agent System, IoT, etc.
+        - <u>PI:</u> Prof Alexandra Brintrup
+        
+    - title: PhD Researcher
+      institution: International Doctoral Innovation Centre (IDIC) & Artificial Intelligence and Optimisation Group (AIOP), 
+                   School of Computer Science, University of Nottingham Ningbo China, Ningbo, China
+      year: 04/2015 - 03/2019
       description:
+        - <u>Research topics:</u> <a href="https://www.artcodes.co.uk/">Artcodes</a>, Augmented Reality, Computer Vision, Human-Computer Interaction, and Metamorphic Relations
+        - <u>Supervisor:</u> Prof Dave Towey, Prof Andrew P. French and Prof Steve Benford
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Research Associate / Assistant
+      institution: Mixed Reality Laboratory (MRL), School of Computer Science, University of Nottingham, Nottingham, UK
+      year: 09/2014 - 06/2015
+      description: 
+        - <u>Research topics:</u> <a href="https://carolanguitar.com/">Carolan guitar</a>, Artcodes
+        - <u>Supervisor:</u> Prof Steve Benford
 
-- title: Open Source Projects
+    - title: PhD Student at Horizon CDT
+      institution: Horizon Centre for Doctoral Training (Horizon CDT), University of Nottingham, Nottingham, UK
+      year: 09/2013 - 06/2014
+      description: 
+        - <u>Training skills:</u> Training interdisciplinary research skills for human-centric studies, modules include
+            Ubiquitous Computing, 
+            Connected Computing at Scale, 
+            Emerging Technology and Society, 
+            Machine Learning, 
+            Innovation and Technology Transfer, 
+            Advanced Research Methods and Ethics, 
+            Practice-Led project, 
+            PhD proposal
+        - <u>Supervision team:</u> Prof Steve Benford, Prof Tom Rodden, Prof Sarah Sharples, Prof Michel Valster, etc.
+    
+    - title: Research Assistant
+      institution: Water Big Data Laboratory, School of Computer Science and Information, Hohai University, Nanjing, China
+      year: 09/2012 - 09/2013
+      description: 
+        - <u>Research topics:</u> XML Retrieval, Database, and Data Management
+        - <u>Supervisor:</u> Prof Jun Feng
+
+
+## Professional experience
+- title: Professional Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Web Developer (part-time)
+      institution: <a href="https://cambridgeservicealliance.eng.cam.ac.uk/">Cambridge Service Alliance</a>,
+                   Institute for Manufacturing (IfM), Department of Engineering, University of Cambridge, Cambridge, UK
+      year: 08/2020 - 06/2021
+      description:
+        - <u>Project:</u> Visualisation Platform for Customer Relationship Analysis
+        - <u>Topics:</u> Churn Analysis, Sentiment Analysis, Topic Extraction, Dash, Plotly, NLTK, etc.
+        - <u>Supervisor:</u> <a href="https://cambridgeservicealliance.eng.cam.ac.uk/About/directory/MohamedZaki">Dr Mohamed Zaki</a>
 
+    - title: Web Developer (Intern)
+      institution: ChinaSoft International Ltd., Wuxi (National) Software Park, Wuxi, China
+      year: 03/2009 - 05/2009
+      description:
+        - <u>Project:</u> Online shopping Website development using Java Web Technology
+
+## Honors and awards
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2024
+      items: 
+        - IfM <strong>Postdoctoral Award</strong> for Excellence in Research, University of Cambridge
+    - year: 2017
+      items: 
+        - <strong>Star of Research</strong> for PhD Students Award, Faculty of Science and Engineering (FoSE), UNNC
+    - year: 2016
+      items: 
+        - Honorable Mentions Award, CHI'2016
+    - year: 2013
+      items: 
+        - IDIC Ph.D. Studentship (four-year), UNNC
+    - year: 2012
+      items: 
+        - Best Paper Award, CCCC’2012
+        - First-class Outstanding Graduate Scholarship, Hohai University
+        - Outstanding Graduate Award, Hohai University
+    - year: 2011
+      items: 
+        - First-class Graduate Scholarship, Hohai Univeristy
+    - year: 2009
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+        -  Third-class Graduate Scholarship, Hohai University
+    - year: 2008
+      items: 
+        - National Scholarship (awarded 0.2% undergraduates in China)
+    - year: 2007
+      items: 
+        - First-class Scholarship, Jinling Institute of Technology
+    - year: 2006
+      items: 
+        - Outstanding Student Award, Jinling Institute of Technology
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
 
-- title: Other Interests
+## Other interests
+- title: Personal Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Football</u> - 
+      Since 2022, I have <strong>managed and captained</strong> an amateur football team, overseeing player recruitment, friendly matches, and overall operations.
+      Under my leadership, the team achieved promotion to a higher division---an unprecedented milestone in its <strong>14-year</strong> history. 
+      I also organise weekly football activities for the wider Cambridge Chinese community, engaging <strong>several hundred members</strong> over the past four years.
+      I am <em>very proud</em> of these volunteer duties, which allow me to connect with a large network of football enthusiasts who work and study at Cambridge.
+    - <u>Other interests</u> - 
+      Cooking, Chinese Calligraphy, and Badminton.
+      I enjoy experimenting with <strong>new recipes</strong> and sharing them with friends
+      I also serve as the <em>de facto</em> organiser of social events within my current research group, having coordinated nearly all group dinners and farewell gatherings since the COVID-19 pandemic.

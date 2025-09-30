@@ -1,9 +1,52 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+# Journals 
+"IJPE":
+  url: https://www.sciencedirect.com/journal/international-journal-of-production-economics
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"IJPR":
+  url: https://www.tandfonline.com/journals/tprs20
+  color: "#00369f"
 
-"Vision":
-  color: "#009f36"
+"JSS":
+  url: https://www.sciencedirect.com/journal/journal-of-systems-and-software
+  color: "#00369f"
+
+"ChinaComm.":
+  url: http://www.cic-chinacommunications.cn/EN/home
+  color: "#00369f"
+
+"interaction":
+  url: https://interactions.acm.org/
+  color: "#00369f"
+
+"IJDTA":
+  url: https://www.scimagojr.com/journalsearch.php?q=21100423920&tip=sid&clean=0
+  color: "#00369f"
+
+"WRI":
+  url: https://slxxh.fabiao.com.cn/
+  color: "#00369f"
+
+
+# Conferences - default color 
+
+
+# Theses
+"PhD Thesis":
+  url: "https://eprints.nottingham.ac.uk/59474/"
+  color: "#FFC300"
+
+"Master Thesis":
+  url: ""
+  color: "#FFC300"
+
+"CN Patent":
+  url: ""
+  color: "#32a852"
+
+
+# Unpublished 
+"Unpublished":
+  url: ""
+  color: "#212F3D"
+

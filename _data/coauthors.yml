@@ -1,34 +1,45 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Benford":
+  - firstname: ["Steve", "Steve D.", "S.", "S. D."]
+    url: https://scholar.google.com/citations?user=80XCmMgAAAAJ&hl=en
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"French":
+  - firstname: ["Andrew P.", "A. P.", "Andrew P"]
+    url: https://scholar.google.co.uk/citations?user=SESz4-UAAAAJ&hl=en
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Chen":
+  - firstname: ["Tsong Yueh", "T. Y.", "TY"]
+    url: https://scholar.google.com/citations?user=usJzGjUAAAAJ&hl=en
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Towey":
+  - firstname: ["Dave"]
+    url: https://scholar.google.com/citations?hl=en&user=vYqZHLsAAAAJ
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Brintrup":
+  - firstname: ["Alexandra", "Alexandra M.", "Alexandra M", "Alexandra Melike"]
+    url: https://www.ifm.eng.cam.ac.uk/people/ab702/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Zhou":
+  - firstname: ["Zhi Quan", "Z. Q."]
+    url: https://scholar.google.com/citations?hl=en&user=UHimbpIAAAAJ
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Pearce":
+  - firstname: ["Tim"]
+    url: https://scholar.google.com/citations?user=09k1kdQAAAAJ&hl=en
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Long":
+  - firstname: ["Yunbo"]
+    url: https://scholar.google.com/citations?user=OL_fj-YAAAAJ&hl=en
+
+  
+"Almahri":
+  - firstname: ["Sara"]
+    url: https://scholar.google.com/citations?user=yNynJ4EAAAAJ&hl=en
+
+"Schoepf":
+  - firstname: ["Stefan"]
+    url: https://scholar.google.com/citations?user=GTvLmf0AAAAJ&hl=en
+
+"Mak":
+  - firstname: ["Stephen"]
+    url: https://scholar.google.com/citations?user=MutMC4kAAAAJ&hl=en
