@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "Projects",
-          description: "A growing collection of your cool projects.",
+          description: "A selected collection of my recent projects",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-publications",
           title: "Publications",
-          description: "For the full list, please see my [Google Scholar](https://scholar.google.com/citations?user=ViVHl54AAAAJ&amp;hl=en).",
+          description: "For the full list, please see my Google Scholar.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
