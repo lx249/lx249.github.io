@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Multi-Agent Systems | Agentic AI | Autonomous Supply Chains 
+subtitle: Multi-Agent Systems | Agentic AI | Autonomous Supply Chains | Full-Stack Development
 
 profile:
   align: right
@@ -17,12 +17,12 @@ profile:
 announcements: 
   enabled: true
   scrollable: true
-  limit: 5
+  limit: 100
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am currently an **Assistant Research Professor** (Senior Research Associate) at the [Supply Chain AI Lab (SCAIL)](https://www.ifm.eng.cam.ac.uk/research/supply-chain-ai-lab/), Department of Engineering, University of Cambridge.
+I am currently an **Assistant Research Professor** (Senior Research Associate) at the [Supply Chain AI Lab (SCAIL)](https://www.ifm.eng.cam.ac.uk/research/supply-chain-ai-lab/), Department of Engineering, **University of Cambridge**.
 
 My research focuses on **multi-agent systems, agentic AI, and their applications in supply chain management and logistics**. I formally conceptualised [autonomous supply chains (ASCs)](https://www.sciencedirect.com/science/article/pii/S2452414X24001419) and proposed a multi-agent framework for their implementation. I am particularly interested in the *architectural* and *interaction* aspects of scalable multi-agent systems in decentralised settings such as supply chain networks.  
 
