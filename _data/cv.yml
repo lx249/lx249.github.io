@@ -4,6 +4,8 @@
   contents:
     - name: Full Name
       value: Liming Xu
+    - name: Position
+      value: Assistant Research Professor
     - name: Pronouns
       value: He/Him/His
     - name: Contact
@@ -15,26 +17,27 @@
 - title: Research Areas
   type: nested_list
   contents:
-    - title: Current Interests
+    - title: Current
       items:
-        - Autonomous Supply Chains (ASC)
-        - Multi-Agent Systems (MAS)
+        - Multi-Agent Systems
         - Agentic AI
-    - title: Past Interests
+        - Autonomous Supply Chains
+    - title: Past
       items: 
+        - Computer Vision
+        - Metamorphic Testing
+        - Human-Computer Interaction
         - Artcode Detection
-        - Augmented Reality (AR)
-        - Computer Vision (CV)
-        - Metamorphic Testing (MT)
-        - Human-Computer Interaction (HCI)
+        - Augmented Reality
 
 ## Education
 - title: Education
   type: time_table
   contents:
     - title: PhD, Computer Vision and Human-Computer Interaction
-      institution: University of Nottingham, Nottingham, United Kingdom
-      year: 10/2013 - 03/2019
+      institution: University of Nottingham
+      location: Nottingham, UK
+      year: 2013.10-2019.03
       description:
         - <u>Thesis:</u> Artcode Detection in Images
         - <u>Supervisors:</u> Prof <a href="https://research.nottingham.edu.cn/en/persons/dave-towey">Dave Towey</a>, 
@@ -44,15 +47,21 @@
           and <a href="https://uclic.ucl.ac.uk/people/enrico-costanza">Prof Enrico Costanza</a> (External)
 
     - title: MRes, Computer Science (Database)
-      institution: Hohai University, Nanjing, China
-      year: 09/2009 - 06/2012
+      institution: Hohai University
+      location: Nanjing, China
+      year: 2009.09-2012.06
       description:
         - <u>Thesis:</u> Node Depth-based Methods for XML Indexing and Searching
-        - <u>Supervisor:</u> Supervised by <a href="https://jszy.hhu.edu.cn/fj12/">Prof Jun Feng</a>
+        - <u>Supervisor:</u> <a href="https://jszy.hhu.edu.cn/fj12/">Prof Jun Feng</a>
+        - Outstanding Graduate Award
        
-    - title: Bachelor, Computer Science
-      institution: Jinling Institute of Technology, Nanjing, China
-      year: 09/2005 - 06/2009
+    - title: Bachelor, Computer Science; Minor in Software Engineering (NIIT)
+      institution: Jinling Institute of Technology
+      location: Nanjing, China
+      year: 2005.09-2009.06
+      description:
+        - Ranked 1% out of 120+ students
+        - National Scholarship (0.2%)
 
 
 ## Academic experience
@@ -60,75 +69,99 @@
   type: time_table
   contents:
     - title: Senior Research Associate
-      institution: Supply Chain AI Lab, Department of Engineering, University of Cambridge, Cambridge, UK
-      year: 12/2024 - present
+      institution: Supply Chain AI Lab, University of Cambridge
+      location: Cambridge, UK
+      year: 2024.12-present
       description:
-        - <u>Research topics:</u> Autonomous Supply Chains, Agentic AI, Knowledge Graph, and Agentic System Evaluation
-        - <u>PI:</u> Prof Alexandra Brintrup
+        - Lead research on developing autonomous supply chains
+        - Autonomous Supply Chains, Agentic AI, Knowledge Graph, and Agentic System Evaluation
+        - Developed and launched the <a href="https://supplychaindatahub.org/">Supply Chain Data Hub</a>
 
     - title: Research Associate
-      institution: Supply Chain AI Lab, Department of Engineering, University of Cambridge, Cambridge, UK
-      year: 04/2019 - present
+      institution: Supply Chain AI Lab, University of Cambridge
+      location: Cambridge, UK
+      year: 2019.04-2024.11
       description:
-        - <u>Research topics:</u> Autonomous Supply Chains, Collaborative Logistics, Multi-agent System, IoT, etc.
-        - <u>PI:</u> Prof Alexandra Brintrup
+        - Received 2024 IfM Postdoctoral Excellence in Research Award;
+        - Lead research on multi-agent system, LLMs, and knowledge graphs and their application in supply chains and logistics;
+        - Published two earliest papers on autonomous supply chains;
+        - Supervise and mentor junior researchers (PhDs / MSc);
+        - Formally conceptualised multi-agent autonomous supply chain systems and proposed seven supply chain autonomy levels;
+        - Founding organiser for the Supply Chain and Logistics Data Challenges;
+        - Lead demonstrator for AIUK <a href="https://ai-uk.turing.ac.uk/programme-2023/">2023</a> and <a href="https://www.turing.ac.uk/events/ai-uk-2024">2024</a>.
+
+    - title: MSc Dissertation Supervisor
+      institution: Department of Engineering, University of Cambridge
+      location: Exeter, UK
+      year: 2022.02-2024.09
+      description:
+        - Supervised MSc students through their final dissertation projects, guiding them in research design, technical development, and academic writing.
+
+    - title: Tutori & Supervisor
+      institution: Pembroke College, University of Cambridge
+      location: Cambridge, UK
+      year: 2020.10-2023.10
+      description:
+        - Taught tutorials for 2yr Computer Science undergrads on the modules of Foundation of Data Science and Artificial Intelligence.
         
     - title: PhD Researcher
       institution: International Doctoral Innovation Centre (IDIC) & Artificial Intelligence and Optimisation Group (AIOP), 
-                   School of Computer Science, University of Nottingham Ningbo China, Ningbo, China
-      year: 04/2015 - 03/2019
+                   University of Nottingham Ningbo China
+      location: Ningbo, China
+      year: 2015.04-2019.03
       description:
         - <u>Research topics:</u> <a href="https://www.artcodes.co.uk/">Artcodes</a>, Augmented Reality, Computer Vision, Human-Computer Interaction, and Metamorphic Relations
         - <u>Supervisor:</u> Prof Dave Towey, Prof Andrew P. French and Prof Steve Benford
 
-    - title: Research Associate / Assistant
-      institution: Mixed Reality Laboratory (MRL), School of Computer Science, University of Nottingham, Nottingham, UK
-      year: 09/2014 - 06/2015
+    - title: Research Associate
+      institution: Mixed Reality Laboratory (MRL), University of Nottingham
+      location: Nottingham, UK
+      year: 2014.09-2015.06
       description: 
-        - <u>Research topics:</u> <a href="https://carolanguitar.com/">Carolan guitar</a>, Artcodes
-        - <u>Supervisor:</u> Prof Steve Benford
+        - <a href="https://carolanguitar.com/">Carolan guitar</a>, Artcodes
+        - Worked in a multidisciplinary team comprising guitar luthier, graphic designer, and computer scientists
+        - Supervised by Prof Steve Benford
 
-    - title: PhD Student at Horizon CDT
-      institution: Horizon Centre for Doctoral Training (Horizon CDT), University of Nottingham, Nottingham, UK
-      year: 09/2013 - 06/2014
+    - title: PhD Student
+      institution: <a href="https://cdt.horizon.ac.uk/">Horizon CDT</a>, University of Nottingham
+      location: Nottingham, UK
+      year: 2013.09-2014.06
       description: 
-        - <u>Training skills:</u> Training interdisciplinary research skills for human-centric studies, modules include
-            Ubiquitous Computing, 
-            Connected Computing at Scale, 
-            Emerging Technology and Society, 
-            Machine Learning, 
-            Innovation and Technology Transfer, 
-            Advanced Research Methods and Ethics, 
-            Practice-Led project, 
-            PhD proposal
-        - <u>Supervision team:</u> Prof Steve Benford, Prof Tom Rodden, Prof Sarah Sharples, Prof Michel Valster, etc.
+        - Train interdisciplinary research skills for conducting human-centric research
+        - Ubiquitous Computing, 
+          Connected Computing at Scale, 
+          Emerging Technology and Society, 
+          Machine Learning, 
+          Innovation and Technology Transfer, 
+          Advanced Research Methods and Ethics, 
+          Study Human Performance
+    
     
     - title: Research Assistant
-      institution: Water Big Data Laboratory, School of Computer Science and Information, Hohai University, Nanjing, China
-      year: 09/2012 - 09/2013
+      institution: Water Big Data Laboratory, Hohai University
+      location: Nanjing, China
+      year: 2012.09-2013.09
       description: 
-        - <u>Research topics:</u> XML Retrieval, Database, and Data Management
-        - <u>Supervisor:</u> Prof Jun Feng
-
+        - XML search and indexing, database, Java development
 
 ## Professional experience
 - title: Professional Experience
   type: time_table
   contents:
-    - title: Web Developer (part-time)
-      institution: <a href="https://cambridgeservicealliance.eng.cam.ac.uk/">Cambridge Service Alliance</a>,
-                   Institute for Manufacturing (IfM), Department of Engineering, University of Cambridge, Cambridge, UK
-      year: 08/2020 - 06/2021
+    - title: NLP & Web Developer (Temporary)
+      institution: <a href="https://cambridgeservicealliance.eng.cam.ac.uk/">Cambridge Service Alliance</a>, University of Cambridge
+      location: Cambridge, UK
+      year: 2020.08-2021.06
       description:
-        - <u>Project:</u> Visualisation Platform for Customer Relationship Analysis
-        - <u>Topics:</u> Churn Analysis, Sentiment Analysis, Topic Extraction, Dash, Plotly, NLTK, etc.
-        - <u>Supervisor:</u> <a href="https://cambridgeservicealliance.eng.cam.ac.uk/About/directory/MohamedZaki">Dr Mohamed Zaki</a>
+        - Developed an interactive platform on customer relationship analysis via pretrained models
+        - BERT, Churn Analysis, Sentiment Analysis, Topic Extraction, Dash, Plotly
 
-    - title: Web Developer (Intern)
-      institution: ChinaSoft International Ltd., Wuxi (National) Software Park, Wuxi, China
-      year: 03/2009 - 05/2009
+    - title: Web Developer (Internship)
+      institution: ChinaSoft International Ltd.
+      location: Wuxi, China
+      year: 2009.03-2009.05
       description:
-        - <u>Project:</u> Online shopping Website development using Java Web Technology
+        - Developed an online shopping website development using Java Web Technology
 
 ## Honors and awards
 - title: Honors and Awards

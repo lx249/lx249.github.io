@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: 
+subtitle: Multi-Agent Systems | Agentic AI | Autonomous Supply Chains 
 
 profile:
   align: right
@@ -14,7 +14,10 @@ profile:
     <p>17 Charles Babbage Rd</p>
     <p>Cambridge CB3 0FS, UK</p>
 
-news: true  # includes a list of news items
+announcements: 
+  enabled: true
+  scrollable: true
+  limit: 5
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
