@@ -7,7 +7,7 @@ subtitle: Multi-Agent Systems | Agentic AI | Autonomous Supply Chains | Full-Sta
 profile:
   align: right
   image: prof_pic.jpeg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>lx249 [at] cam.ac.uk</p>
     <p>Alan Reece Building</p>
@@ -32,7 +32,5 @@ More recently, my work has explored the integration of **large language models (
 Previously, I completed my **PhD at the University of Nottingham** in 2019, where I worked on the interdisciplinary topic of *Artcode Detection*, which span computer vision, human-computer interaction, and graphic design, under the supervision of [Steve Benford](https://stevebenford.com/biography/), [Andrew P. French](https://scholar.google.co.uk/citations?user=SESz4-UAAAAJ&hl=en), and [Dave Towey](https://research.nottingham.edu.cn/en/persons/dave-towey).  
 
 Beyond academia, I am also a **full-stack developer and system architect**, with experience in designing and building diverse systems across B/S, P2P, microservices, layered, and event-driven architectures.
-
-<!-- *Reach Out*: The best way to contact me is via email or by leaving a message on [LinkedIn](https://www.linkedin.com/in/limingxu/). -->
 
 
