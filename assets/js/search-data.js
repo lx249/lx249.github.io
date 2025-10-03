@@ -490,13 +490,6 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_agentchat/";
             },},{
-        id: 'social-email',
-        title: 'email',
-        section: 'Socials',
-        handler: () => {
-          window.open("mailto:%78%6C%69%6D.%75%6F%6E@%67%6D%61%69%6C.%63%6F%6D", "_blank");
-        },
-      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
