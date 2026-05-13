@@ -42,8 +42,9 @@ layout: default
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
+      {% assign news_count = site.news | size %}
       <h2 class="mt-4">
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News✨</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News✨ <span class="news-count">({{ news_count }})</span></a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
