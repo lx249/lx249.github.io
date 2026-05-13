@@ -38,9 +38,15 @@ table {
 a,
 table.table a {
   color: var(--global-theme-color);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
+  transition:
+    color 0.2s ease,
+    text-decoration-color 0.2s ease,
+    opacity 0.2s ease;
 
   &:hover {
-    color: var(--global-theme-color);
+    color: var(--global-hover-color);
     text-decoration: underline;
   }
 
@@ -57,11 +63,13 @@ table.table a {
 }
 
 blockquote {
-  background: var(--global-bg-color);
+  background: var(--global-section-bg);
   border-left: 5px solid var(--global-theme-color);
   margin: 1.5em 0;
-  padding: 1em;
+  padding: 1.15rem 1.25rem;
   font-size: 1.2rem;
+  border-radius: 0 18px 18px 0;
+  box-shadow: 0 12px 30px rgba(22, 50, 79, 0.08);
 
   p {
     margin-bottom: 0;
@@ -168,6 +176,20 @@ ul.task-list input[type="checkbox"] {
 
 .card {
   background-color: var(--global-card-bg-color);
+  border: 1px solid var(--global-card-border-color);
+  border-radius: 22px;
+  box-shadow: var(--global-card-shadow);
+  backdrop-filter: blur(16px);
+  overflow: hidden;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    border-color: var(--global-accent-soft-color);
+  }
 
   .card-img {
     width: 100%;
@@ -195,16 +217,24 @@ ul.task-list input[type="checkbox"] {
 .profile {
   width: 100%;
 
+  img {
+    border: 1px solid var(--global-card-border-color);
+    border-radius: 28px !important;
+    box-shadow: 0 24px 56px rgba(22, 50, 79, 0.18);
+  }
+
   .more-info {
-    margin-bottom: 5px;
-    margin-top: 5px;
+    margin-bottom: 0;
+    margin-top: 1rem;
+    padding: 0;
     font-family: monospace;
-    font-size: 15px;
+    font-size: 0.9rem;
+    line-height: 1.7;
 
     p {
-      display: inline-block;
+      display: block;
       margin: 0;
-      color: #6c757d;
+      color: var(--global-text-color-light);
     }
   }
 }
@@ -246,10 +276,11 @@ ul.task-list input[type="checkbox"] {
 // Navbar customization
 
 .navbar {
-  box-shadow: none;
-  border-bottom: 1px solid var(--global-divider-color);
-  background-color: var(--global-bg-color);
-  opacity: 0.95;
+  box-shadow: 0 10px 30px rgba(22, 50, 79, 0.08);
+  border-bottom: 1px solid var(--global-card-border-color);
+  background-color: var(--global-navbar-bg);
+  backdrop-filter: blur(18px);
+  opacity: 1;
 }
 
 .navbar .dropdown-menu {
@@ -401,9 +432,11 @@ ul.task-list input[type="checkbox"] {
 
 .social {
   text-align: center;
+  margin-top: 3rem !important;
+  padding: 0.5rem 0 0;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 3.5rem;
 
     a {
       img {
@@ -439,7 +472,8 @@ ul.task-list input[type="checkbox"] {
   }
 
   .contact-note {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
   }
 }
 
@@ -503,6 +537,43 @@ footer.sticky-bottom {
 
   .container {
     text-align: center;
+  }
+}
+
+.news {
+  border: 1px solid var(--global-card-border-color) !important;
+  border-radius: 24px !important;
+  padding: 1rem 1.1rem !important;
+  background: var(--global-section-bg);
+  box-shadow: var(--global-card-shadow);
+
+  .badge {
+    background: rgba(22, 50, 79, 0.08);
+    color: var(--global-theme-color);
+    border: 1px solid var(--global-card-border-color);
+    font-weight: 600;
+  }
+
+  td,
+  th {
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    vertical-align: top;
+  }
+}
+
+.publications {
+  .bibliography {
+    padding: 0.2rem 0;
+  }
+
+  li {
+    margin-bottom: 1.5rem;
+    padding: 1.1rem 1.2rem;
+    border: 1px solid var(--global-card-border-color);
+    border-radius: 22px;
+    background: var(--global-section-bg);
+    box-shadow: 0 16px 40px rgba(22, 50, 79, 0.08);
   }
 }
 

@@ -6,6 +6,8 @@ body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
+  background-image: var(--global-bg-gradient);
+  background-attachment: fixed;
 
   h1,
   h2,
@@ -15,6 +17,24 @@ body {
   h6 {
     scroll-margin-top: 66px;
   }
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+  opacity: 0.22;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)),
+    radial-gradient(rgba(22, 50, 79, 0.04) 0.6px, transparent 0.6px);
+  background-size:
+    100% 100%,
+    14px 14px;
+  background-position:
+    0 0,
+    0 0;
 }
 
 body.fixed-top-nav {
@@ -38,7 +58,64 @@ body.sticky-bottom-footer {
   }
 }
 
-// TODO: redefine content layout.
+.post,
+.cv,
+.publications,
+.projects {
+  position: relative;
+}
+
+.post-header {
+  padding: 1.25rem 0 0.5rem;
+  margin-top: 1rem;
+}
+
+.post-title {
+  font-size: clamp(2.5rem, 4vw, 4.25rem);
+  line-height: 0.98;
+  letter-spacing: -0.04em;
+  margin-bottom: 0.85rem;
+}
+
+.post-header .desc {
+  max-width: 44rem;
+  margin-bottom: 0;
+  font-size: 1.02rem;
+  line-height: 1.7;
+  color: var(--global-text-color-light) !important;
+}
+
+.post article > h2,
+.post article > h3,
+.cv h2,
+.publications h2,
+.projects h2 {
+  margin-top: 3rem;
+  margin-bottom: 1.1rem;
+  font-size: 1.5rem;
+  letter-spacing: -0.03em;
+  position: relative;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 72px;
+    height: 4px;
+    margin-top: 0.7rem;
+    border-radius: 999px;
+    background: linear-gradient(90deg, var(--global-theme-color), var(--global-accent-color));
+  }
+}
+
+.post article > p,
+.cv p {
+  font-size: 1.02rem;
+  line-height: 1.85;
+}
+
+.post article > p:first-of-type {
+  font-size: 1.08rem;
+}
 
 /******************************************************************************
  * Publications
